@@ -17,7 +17,20 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
  ## 📁 Project Structure
  ![Image](https://github.com/user-attachments/assets/be13b4e2-99ca-493e-9931-8e8afe4bdd40)
+ ```bash
+📦 KandoMusic
+ ┣ 📂 pages
+ ┃ ┣ 📜 _app.js       # Global wrapper for the app
+ ┃ ┣ 📜 index.js      # Home page
+ ┃ ┗ 📜 about.js      # About page
+ ┣ 📂 components
+ ┃ ┗ 📜 Layout.js     # Main layout component (imports GRID_DATA_ITEMS)
+ ┣ 📂 data
+ ┃ ┗ 📜 index.js      # Contains GRID_DATA_ITEMS for dynamic rendering
+ ┣ 📂 styles
+ ┃ ┗ 📜 global.css    # Global styles
+ ┗ 📜 package.json
 ### 🔍 Project Overview (Selected Code Samples)
 
-- **`Layout.js`** – The main layout component of KandoMusic, dynamically rendering photos by mapping through imported GRID_DATA_ITEMS. It structures the main screen with a grid-based design and interactive links.
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/React_Hooks/tree/c260ec93b189614392ea7c1c953979c2283ba090/src/App)
+- **`App[Layout.js]`** – The main layout component of KandoMusic, dynamically rendering photos by mapping through imported GRID_DATA_ITEMS. It structures the main screen with a grid-based design and interactive links.
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/1312ac308aaef3e11dfcc0c6b26da638e977c211/src/Layout(App))
