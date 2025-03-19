@@ -8,11 +8,12 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
 ## 🚀 **Tech Stack**
 
- **Next.js:** - Optimized React framework with SSR & SSG.
- **React.js:** - Component-based UI development. 
- **Tailwind CSS:** - Modern styling for responsiveness. 
- **Spotify API:** - Embedded music streaming & playlist data.
- **Custom API Routes:** - Fetches artist data dynamically.
+ - **Next.js:** - Optimized React framework with SSR & SSG.
+ - **React.js:** - Component-based UI development. 
+ - **Tailwind CSS:** - Modern styling for responsiveness. 
+ - **Spotify API:** - Embedded music streaming & playlist data.
+ - **Custom API Routes:** - Fetches artist data dynamically.
+
 
  ## 📁 Project Structure
  ![Image](https://github.com/user-attachments/assets/be13b4e2-99ca-493e-9931-8e8afe4bdd40)
