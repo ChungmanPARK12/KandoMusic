@@ -6,7 +6,7 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
 **Next.js** is a popular **React framework** that enables **server-side rendering (SSR), static site generation (SSG), and API routes**. It simplifies React development by offering **performance optimizations, routing, and seamless deployment**.
 
-## 🚀 **Tech Stack**
+# 🚀 **Tech Stack**
 
  - **Next.js:** - Optimized React framework with SSR & SSG.
  - **React.js:** - Component-based UI development. 
@@ -15,7 +15,7 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
  - **Custom API Routes:** - Fetches artist data dynamically.
 
 
- ## 📁 Project Structure
+ # 📁 Project Structure
  ![Image](https://github.com/user-attachments/assets/be13b4e2-99ca-493e-9931-8e8afe4bdd40)
  
 ```bash
@@ -39,12 +39,12 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
  ┣ 📜 not-found.js         # Handles 404 errors
  ┗ 📂 components           # (Expand if needed)
 ```
-### 🔍 Project Overview (Selected Code Samples)
+## 🔍 Project Overview (Selected Code Samples)
 
-- **`App[Layout.js]`** – The main layout component of KandoMusic, dynamically rendering photos by mapping through imported GRID_DATA_ITEMS. It structures the main screen with a grid-based design and interactive links.
+- **`app/layout.js`** – The main layout component of KandoMusic, dynamically rendering photos by mapping through imported GRID_DATA_ITEMS. It structures the main screen with a grid-based design and interactive links.
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/1312ac308aaef3e11dfcc0c6b26da638e977c211/src/Layout(App))
 
-- **Connect with me** 
+### Connect with me
 
 ![Image](https://github.com/user-attachments/assets/5284fc7b-aa0c-49a2-ad65-9d6b8554535f)
 
@@ -60,3 +60,18 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
  ┣ 📜 loading.js         # Loading state handler
  ┗ 📜 page.js            # Main page for connect section
 ```
+#### Email Subscription Form
+
+- **`email-list/form.js`** – This form collects the **user's name and email**, validates input, and submits data asynchronously to `post-contact.js`. It provides **real-time feedback**, handles errors, and displays a **loading spinner** during submission.  
+
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/1312ac308aaef3e11dfcc0c6b26da638e977c211/src/Layout(App))
+
+- **`email-list/post-contact.js`** – This **server-side function** securely sends **name and email** to **Mailjet’s API** for contact management. It **authenticates requests** using environment variables (`API_KEY`, `SECRET_KEY`) and returns the **JSON response** from the API.
+
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/1312ac308aaef3e11dfcc0c6b26da638e977c211/src/Layout(App))
+
+### **Email Subscription Flow (`form.js` & `post-contact.js`)**  
+
+`form.js` handles user input, validation, and async submission, while `post-contact.js` securely sends data to Mailjet’s API using authentication. 
+Key skills: **React Hooks, API integration, server-side execution, and authentication**.  
+
