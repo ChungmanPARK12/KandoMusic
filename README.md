@@ -54,7 +54,7 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
  ┃ ┣ 📜 form.js          # Handles email form input
  ┃ ┗ 📜 post-contact.js  # Processes contact form submissions
  ┣ 📂 followers
- ┃ ┣ 📜 get-followers.js # Fetches follower data
+ ┃ ┣ 📜 get-followers.js # Fetches Instagram follower data
  ┃ ┣ 📜 index.js         # Main entry point for followers
  ┣ 📜 layout.js          # Layout for connect module
  ┣ 📜 loading.js         # Loading state handler
@@ -64,11 +64,16 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
 - **`email-list/form.js`** – This form collects the **user's name and email**, validates input, and submits data asynchronously to `post-contact.js`. It provides **real-time feedback**, handles errors, and displays a **loading spinner** during submission.  
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/1312ac308aaef3e11dfcc0c6b26da638e977c211/src/Layout(App))
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/bc385d60a26841a8b08389918268eb01988c1af3/src/ConnectWithMe/Formjs)
 
 - **`email-list/post-contact.js`** – This **server-side function** securely sends **name and email** to **Mailjet’s API** for contact management. It **authenticates requests** using environment variables (`API_KEY`, `SECRET_KEY`) and returns the **JSON response** from the API.
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/1312ac308aaef3e11dfcc0c6b26da638e977c211/src/Layout(App))
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/bc385d60a26841a8b08389918268eb01988c1af3/src/ConnectWithMe/Postjs)
+
+  - **`connect/page.js`** – This **main page** encourages user engagement by **promoting Spotify and Instagram follows**, displaying **real-time follower counts** via `<Followers />`, and **collecting email subscriptions** through `<Form />`. It also provides **direct contact information** for inquiries.
+
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/bc385d60a26841a8b08389918268eb01988c1af3/src/ConnectWithMe/Postjs)
+
 
 ### Email Subscription Flow (`form.js` & `post-contact.js`)  
 
