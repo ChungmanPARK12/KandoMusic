@@ -70,9 +70,11 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/bc385d60a26841a8b08389918268eb01988c1af3/src/ConnectWithMe/Postjs)
 
-  - **`connect/page.js`** – This **main page** encourages user engagement by **promoting Spotify and Instagram follows**, displaying **real-time follower counts** via `<Followers />`, and **collecting email subscriptions** through `<Form />`. It also provides **direct contact information** for inquiries.
+- **`connect/page.js`** – This **main page** encourages user engagement by **promoting Spotify and Instagram follows**, displaying **real-time follower counts** via `<Followers />`, and **collecting email subscriptions** through `<Form />`. It also provides **direct contact information** for inquiries.
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/bc385d60a26841a8b08389918268eb01988c1af3/src/ConnectWithMe/Postjs)
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/2b44a17baf135f72d25e2a4277d22cfa9e88ef4f/src/ConnectWithMe/Page)
+
+
 
 
 ### Email Subscription Flow (`form.js` & `post-contact.js`)  
