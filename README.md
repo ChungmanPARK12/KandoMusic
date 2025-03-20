@@ -43,3 +43,20 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
 - **`App[Layout.js]`** – The main layout component of KandoMusic, dynamically rendering photos by mapping through imported GRID_DATA_ITEMS. It structures the main screen with a grid-based design and interactive links.
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/1312ac308aaef3e11dfcc0c6b26da638e977c211/src/Layout(App))
+
+- **Connect with me** 
+
+![Image](https://github.com/user-attachments/assets/5284fc7b-aa0c-49a2-ad65-9d6b8554535f)
+
+```bash
+📦 connect
+ ┣ 📂 email-list
+ ┃ ┣ 📜 form.js          # Handles email form input
+ ┃ ┗ 📜 post-contact.js  # Processes contact form submissions
+ ┣ 📂 followers
+ ┃ ┣ 📜 get-followers.js # Fetches follower data
+ ┃ ┣ 📜 index.js         # Main entry point for followers
+ ┣ 📜 layout.js          # Layout for connect module
+ ┣ 📜 loading.js         # Loading state handler
+ ┗ 📜 page.js            # Main page for connect section
+```
