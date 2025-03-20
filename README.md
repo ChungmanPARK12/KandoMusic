@@ -41,7 +41,7 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 ```
 ## 🔍 Project Overview (Selected Code Samples)
 
-- **`app/layout.js`** – The main layout component of KandoMusic, dynamically rendering photos by mapping through imported GRID_DATA_ITEMS. It structures the main screen with a grid-based design and interactive links.
+- **`app/found/layout.js`** – The main layout component of KandoMusic, dynamically rendering photos by mapping through imported GRID_DATA_ITEMS. It structures the main screen with a grid-based design and interactive links.
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/1312ac308aaef3e11dfcc0c6b26da638e977c211/src/Layout(App))
 
 ### Connect with me
@@ -60,7 +60,7 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
  ┣ 📜 loading.js         # Loading state handler
  ┗ 📜 page.js            # Main page for connect section
 ```
-#### Email Subscription Form
+### Email Subscription Form
 
 - **`email-list/form.js`** – This form collects the **user's name and email**, validates input, and submits data asynchronously to `post-contact.js`. It provides **real-time feedback**, handles errors, and displays a **loading spinner** during submission.  
 
@@ -70,8 +70,9 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/1312ac308aaef3e11dfcc0c6b26da638e977c211/src/Layout(App))
 
-### **Email Subscription Flow (`form.js` & `post-contact.js`)**  
+### Email Subscription Flow (`form.js` & `post-contact.js`)  
 
 `form.js` handles user input, validation, and async submission, while `post-contact.js` securely sends data to Mailjet’s API using authentication. 
+
 Key skills: **React Hooks, API integration, server-side execution, and authentication**.  
 
