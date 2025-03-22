@@ -97,11 +97,11 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
 - **`record/layout.js`** – This layout dynamically adjusts based on the current record’s path using **Next.js navigation hooks**. It fetches the correct **background style and title** from the record data, and renders a **breadcrumb UI** with `<SegmentsBreadcrumbs />`, all wrapped in a reusable `<LayoutStructure />` component.
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/2b44a17baf135f72d25e2a4277d22cfa9e88ef4f/src/ConnectWithMe/Page)
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/185a2d2d583598bf8804ae93e6d7880f1d542fe9/src/PoisonWorms/Layoutjs)
 
 - **`id/page.js`** – This dynamic route renders each record's details using `RECORDS_MAP`, including the release blurb, date, and embedded Spotify player. It also dynamically generates metadata and provides links to **Lyrics** and **GearUsed** pages.
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/2b44a17baf135f72d25e2a4277d22cfa9e88ef4f/src/ConnectWithMe/Page)
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/185a2d2d583598bf8804ae93e6d7880f1d542fe9/src/PoisonWorms/Pagejs_id)
 
 
 
