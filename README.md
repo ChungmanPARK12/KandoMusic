@@ -20,24 +20,24 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
  
 ```bash
 📦 app
- ┣ 📂 found
- ┃ ┣ 📂 about
- ┃ ┣ 📂 band
- ┃ ┣ 📂 connect
- ┃ ┣ 📂 discography
- ┃ ┣ 📂 quiz
- ┃ ┣ 📂 record
- ┃ ┣ 📂 studio
- ┃ ┣ 📜 layout.js          # Main layout for found pages
- ┃ ┗ 📜 page.js            # Root page for found section
- ┣ 📂 [...not-found]       # Dynamic route for handling 404 pages
- ┣ 📂 fonts                # Stores custom fonts
- ┣ 📜 data.js              # Stores application data
- ┣ 📜 favicon.ico          # Website favicon
- ┣ 📜 globals.css          # Global styling
- ┣ 📜 layout.js            # Global layout file
- ┣ 📜 not-found.js         # Handles 404 errors
- ┗ 📂 components           # (Expand if needed)
+├─ found
+│  ├─ about/
+│  ├─ band/
+│  ├─ connect/
+│  ├─ discography/
+│  ├─ quiz/
+│  ├─ record/
+│  ├─ studio/
+│  ├─ layout.js        # Main layout for found pages
+│  └─ page.js          # Root page for found section
+├─ [...not-found]/     # Dynamic route for handling 404 pages
+├─ fonts/              # Stores custom fonts
+├─ data.js             # Stores application data
+├─ favicon.ico         # Website favicon
+├─ globals.css         # Global styling
+├─ layout.js           # Global layout file
+├─ not-found.js        # Handles 404 errors
+└─ components/         # Shared UI components
 ```
 ## 🔍 Project Overview (Selected Code Samples)
 
@@ -50,15 +50,15 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
 ```bash
 📦 connect
- ┣ 📂 email-list
- ┃ ┣ 📜 form.js          # Handles email form input
- ┃ ┗ 📜 post-contact.js  # Processes contact form submissions
- ┣ 📂 followers
- ┃ ┣ 📜 get-followers.js # Fetches Instagram follower data
- ┃ ┣ 📜 index.js         # Main entry point for followers
- ┣ 📜 layout.js          # Layout for connect module
- ┣ 📜 loading.js         # Loading state handler
- ┗ 📜 page.js            # Main page for connect section
+├─ email-list
+│  ├─ form.js           # Handles email form input
+│  └─ post-contact.js   # Processes contact form submissions
+├─ followers
+│  ├─ get-followers.js  # Fetches Instagram follower data
+│  └─ index.js          # Main entry point for followers
+├─ layout.js            # Layout for connect module
+├─ loading.js           # Loading state handler
+└─ page.js              # Main page for /connect
 ```
 ### Email Subscription Form
 
@@ -74,12 +74,26 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/2b44a17baf135f72d25e2a4277d22cfa9e88ef4f/src/ConnectWithMe/Page)
 
+### Poision Worms
+
+![Image](https://github.com/user-attachments/assets/ce74ee05-8640-4308-990e-2f6d38ba7455)
+
+```bash
+📦 record
+├─ [id]
+│  ├─ [content]
+│  │  └─ page.js                  # Dynamic content page for each record ID
+│  ├─ embeds
+│  │  ├─ in-perpetuity-embed.js  # Embed for "In Perpetuity"
+│  │  ├─ poison-worms-embed.js   # Embed for "Poison Worms"
+│  │  └─ index.js                # Main index for embeds
+│  ├─ data.js                    # Track and record metadata
+│  ├─ loading.js                 # Loading state for dynamic routes
+│  ├─ page.js                    # Main page for /record/[id]
+│  └─ player.js                  # Audio player component
+└─ layout.js                     # Layout for the record section                  
+ ```
 
 
 
-### Email Subscription Flow (`form.js` & `post-contact.js`)  
-
-`form.js` handles user input, validation, and async submission, while `post-contact.js` securely sends data to Mailjet’s API using authentication. 
-
-Key skills: **React Hooks, API integration, server-side execution, and authentication**.  
 
