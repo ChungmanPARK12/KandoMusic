@@ -111,7 +111,7 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
 - **Overview:** - Modular, data-driven structure using Next.js App Router and dynamic routing.
 
-- **Navigation Flow:** - data.js -> items.map -> <Link href=attribute.href> -> Click -> page.js. 
+- **Navigation Flow:** - data.js -> items.map -> Link attribute -> Click -> page.js. 
 
 - **Component Flow:** - layout.js -> children(page.js) -> title/text/embed -> index.js -> embed.js -> <iframe>.
 
