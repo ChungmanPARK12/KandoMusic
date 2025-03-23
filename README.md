@@ -105,7 +105,20 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
 - **`id/content/page.js`** – This dynamic page renders **record-specific content sections** (like lyrics or gear) using `RECORDS_MAP`. It statically generates paths via `generateStaticParams()` and displays an embedded Spotify player along with the selected content.
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/185a2d2d583598bf8804ae93e6d7880f1d542fe9/src/PoisonWorms/Pagejs_id)
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/a0db4ea1ba6448fc96683c80d394c28a30a972cb/src/PoisonWorms/Page_content)
+
+### Project Architecture Summary
+
+- **Overview:** - Modular, data-driven structure using Next.js App Router and dynamic routing.
+
+- **Navigation Flow:** - data.js -> items.map -> <Link href=attribute.href> -> Click -> page.js. 
+
+- **Component Flow:** - layout.js -> children(page.js) -> title/text/embed -> index.js -> embed.js -> <iframe>.
+
+- **Tech Stack:** - Next.js Routing, React Components, Spotify Embed, useState/useEffect(Client Components).
+
+
+
 
 
 
