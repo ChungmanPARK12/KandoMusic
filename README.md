@@ -103,6 +103,10 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/185a2d2d583598bf8804ae93e6d7880f1d542fe9/src/PoisonWorms/Pagejs_id)
 
+- **`id/content/page.js`** – This dynamic page renders **record-specific content sections** (like lyrics or gear) using `RECORDS_MAP`. It statically generates paths via `generateStaticParams()` and displays an embedded Spotify player along with the selected content.
+
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/185a2d2d583598bf8804ae93e6d7880f1d542fe9/src/PoisonWorms/Pagejs_id)
+
 
 
 
