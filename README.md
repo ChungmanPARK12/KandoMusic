@@ -117,6 +117,8 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
 - **Tech Stack:** - Next.js Routing, React Components, Spotify Embed, useState/useEffect(Client Components).
 
+## Thank you
+Thank you for visiting my github :)
 
 
 
