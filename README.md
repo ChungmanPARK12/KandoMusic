@@ -44,6 +44,8 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 - **`app/found/layout.js`** – The main layout component of KandoMusic, dynamically rendering photos by mapping through imported GRID_DATA_ITEMS. It structures the main screen with a grid-based design and interactive links.
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/1312ac308aaef3e11dfcc0c6b26da638e977c211/src/Layout(App))
 
+---
+
 ### Connect with me
 
 ![Image](https://github.com/user-attachments/assets/5284fc7b-aa0c-49a2-ad65-9d6b8554535f)
@@ -73,6 +75,8 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 - **`connect/page.js`** – This **main page** encourages user engagement by **promoting Spotify and Instagram follows**, displaying **real-time follower counts** via `<Followers />`, and **collecting email subscriptions** through `<Form />`. It also provides **direct contact information** for inquiries.
 
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/2b44a17baf135f72d25e2a4277d22cfa9e88ef4f/src/ConnectWithMe/Page)
+
+---
 
 ### Poision Worms
 
@@ -106,6 +110,8 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 - **`id/content/page.js`** – This dynamic page renders **record-specific content sections** (like lyrics or gear) using `RECORDS_MAP`. It statically generates paths via `generateStaticParams()` and displays an embedded Spotify player along with the selected content.
 
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/a0db4ea1ba6448fc96683c80d394c28a30a972cb/src/PoisonWorms/Page_content)
+  
+---
 
 ### Project Architecture Summary
 
