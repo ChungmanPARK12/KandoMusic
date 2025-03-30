@@ -115,13 +115,18 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
 ### Project Architecture Summary
 
-- **Overview:** - Modular, data-driven structure using Next.js App Router and dynamic routing.
+- **Overview**:  
+  Modular and data-driven architecture built with the **Next.js App Router**, supporting dynamic routing and scalable page management.
 
-- **Navigation Flow:** - data.js -> items.map -> Link.attribute -> Click -> page.js. 
+- **Navigation Flow**:  
+  `data.js → items.map → Link.attribute → Click → page.js`
 
-- **Component Flow:** - layout.js -> children(page.js) -> title/text/embed -> index.js -> embed.js -> <iframe>.
+- **Component Hierarchy**:  
+  `layout.js → children (page.js) → title/text/embed → index.js → embed.js → <iframe>`
 
-- **Tech Stack:** - Next.js Routing, React Components, Spotify Embed, useState/useEffect(Client Components).
+- **Tech Stack**:  
+  **Next.js** (App Router), **React Components**, **Spotify Embed**, `useState` / `useEffect` for client interactivity.
+
 
 ## Thank you
 Thank you for visiting my github :)
