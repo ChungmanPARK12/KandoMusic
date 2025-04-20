@@ -1,4 +1,4 @@
-# 🎵 **David Kando Music - React & Next.js Portfolio**
+# **David Kando Music - React & Next.js Portfolio**
 ![Image](https://github.com/user-attachments/assets/eb5a9f3b-4a66-41d4-90f4-dc5ebc17b37d)
 A modern **music portfolio website** built with **React & Next.js**, featuring API integration, dynamic content rendering, and embedded media.
 
@@ -6,7 +6,7 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 
 **Next.js** is a popular **React framework** that enables **server-side rendering (SSR), static site generation (SSG), and API routes**. It simplifies React development by offering **performance optimizations, routing, and seamless deployment**.
 
-# 🚀 **Tech Stack**
+# **Tech Stack**
 
  - **Next.js:** - Optimized React framework with SSR & SSG.
  - **React.js:** - Component-based UI development. 
@@ -15,7 +15,7 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
  - **Custom API Routes:** - Fetches artist data dynamically.
 
 
- # 📁 Project Structure
+ # Project Structure
  ![Image](https://github.com/user-attachments/assets/be13b4e2-99ca-493e-9931-8e8afe4bdd40)
  
 ```bash
@@ -39,7 +39,7 @@ A modern **music portfolio website** built with **React & Next.js**, featuring A
 ├─ not-found.js        # Handles 404 errors
 └─ components/         # Shared UI components
 ```
-## 🔍 Project Overview (Selected Code Samples)
+## Project Overview (Selected Code Samples)
 
 - **`app/found/layout.js`** – The main layout component of KandoMusic, dynamically rendering photos by mapping through imported GRID_DATA_ITEMS. It structures the main screen with a grid-based design and interactive links.
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/1312ac308aaef3e11dfcc0c6b26da638e977c211/src/Layout(App))
